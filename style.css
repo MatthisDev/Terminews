@@ -1,0 +1,22 @@
+/* init */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* nav settings */
+nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
